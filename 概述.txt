@@ -1,0 +1,11 @@
+ssh wangxu@115.28.87.102 "rm -rf /data/static_sites/voteadmin"
+scp -r lottery wangxu@115.28.87.102:/data/static_sites/lottery
+
+1. 11选5
+2. 快3
+3. 排列三
+
+用到的vue
+
+import VueClipboard from 'vue-clipboard2'
+Vue.use(VueClipboard)
